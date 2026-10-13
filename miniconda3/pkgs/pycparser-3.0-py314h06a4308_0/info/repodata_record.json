@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "fn": "pycparser-3.0-py314h06a4308_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "1ba2f9fc0dfd576db7b5712ca2aef4fe",
+  "name": "pycparser",
+  "platform": "linux",
+  "sha256": "e301a615bc771919a5927071418d69b5b10ca3dab7629ebdf9ff669045477160",
+  "size": 161135,
+  "subdir": "linux-64",
+  "timestamp": 1774959755000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pycparser-3.0-py314h06a4308_0.conda",
+  "version": "3.0"
+}

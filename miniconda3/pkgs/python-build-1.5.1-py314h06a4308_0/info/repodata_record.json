@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64/",
+  "constrains": [],
+  "depends": [
+    "packaging >=24.0",
+    "pyproject_hooks",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "fn": "python-build-1.5.1-py314h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "b8a911690aeacb7e7bb3ec8c111c8dca",
+  "name": "python-build",
+  "platform": "linux",
+  "sha256": "592c74fa4cd5f2a5235872ef872f7077b083759cfa3c9f7a4631ae40dd3c76bf",
+  "size": 129584,
+  "subdir": "linux-64",
+  "timestamp": 1784730496000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/python-build-1.5.1-py314h06a4308_0.conda",
+  "version": "1.5.1"
+}

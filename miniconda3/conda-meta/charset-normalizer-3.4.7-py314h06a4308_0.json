@@ -1,0 +1,84 @@
+{
+  "name": "charset-normalizer",
+  "version": "3.4.7",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "charset-normalizer-3.4.7-py314h06a4308_0.conda",
+  "md5": "03241735576a4b456442e654ab834bb9",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/charset-normalizer-3.4.7-py314h06a4308_0.conda",
+  "sha256": "7d74157f2be79067bfa35bfd21766ed5cff7310b98d6affa6ea772daf924c2a5",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1782917594000,
+  "size": 143135,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::charset-normalizer==3.4.7=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/charset-normalizer-3.4.7-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/charset-normalizer-3.4.7-py314h06a4308_0",
+  "files": [
+    "bin/normalizer",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/METADATA",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/RECORD",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/WHEEL",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/charset_normalizer-3.4.7.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/charset_normalizer/__init__.py",
+    "lib/python3.14/site-packages/charset_normalizer/__main__.py",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/__main__.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/api.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/cd.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/constant.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/legacy.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/md.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/models.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/__pycache__/version.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/api.py",
+    "lib/python3.14/site-packages/charset_normalizer/cd.py",
+    "lib/python3.14/site-packages/charset_normalizer/cli/__init__.py",
+    "lib/python3.14/site-packages/charset_normalizer/cli/__main__.py",
+    "lib/python3.14/site-packages/charset_normalizer/cli/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/cli/__pycache__/__main__.cpython-314.pyc",
+    "lib/python3.14/site-packages/charset_normalizer/constant.py",
+    "lib/python3.14/site-packages/charset_normalizer/legacy.py",
+    "lib/python3.14/site-packages/charset_normalizer/md.py",
+    "lib/python3.14/site-packages/charset_normalizer/models.py",
+    "lib/python3.14/site-packages/charset_normalizer/py.typed",
+    "lib/python3.14/site-packages/charset_normalizer/utils.py",
+    "lib/python3.14/site-packages/charset_normalizer/version.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/normalizer",
+        "prefix_placeholder": "/home/task_IT4CAeSZRPOb0_0/croot/charset-normalizer_1782917574135/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "5030c136cacd7fd35376de7ebf86f4e9048d088b2a3585bd2f4733ae3cf843dc",
+        "size_in_bytes": 487,
+        "sha256_in_prefix": "8823d77b3404cc6367944b5db66686da2aadac4ed1a7b673f53e51b365bf6b3d"
+      }
+    ]
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/charset-normalizer-3.4.7-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::charset-normalizer==3.4.7=py314h06a4308_0"
+  ]
+}

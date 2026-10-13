@@ -1,0 +1,1 @@
+["pytest-mock", "pytest-benchmark", "pytz", "dirty-equals", "faker", "pytest", "pip", "jsonschema"]

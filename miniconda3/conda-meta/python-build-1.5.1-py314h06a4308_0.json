@@ -1,0 +1,97 @@
+{
+  "name": "python-build",
+  "version": "1.5.1",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "python-build-1.5.1-py314h06a4308_0.conda",
+  "md5": "b8a911690aeacb7e7bb3ec8c111c8dca",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/python-build-1.5.1-py314h06a4308_0.conda",
+  "sha256": "592c74fa4cd5f2a5235872ef872f7077b083759cfa3c9f7a4631ae40dd3c76bf",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "packaging >=24.0",
+    "pyproject_hooks",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1784730496000,
+  "size": 129584,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::python-build==1.5.1=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/python-build-1.5.1-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/python-build-1.5.1-py314h06a4308_0",
+  "files": [
+    "bin/pyproject-build",
+    "bin/python-build",
+    "lib/python3.14/site-packages/build-1.5.1.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/build-1.5.1.dist-info/METADATA",
+    "lib/python3.14/site-packages/build-1.5.1.dist-info/RECORD",
+    "lib/python3.14/site-packages/build-1.5.1.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/build-1.5.1.dist-info/WHEEL",
+    "lib/python3.14/site-packages/build-1.5.1.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/build-1.5.1.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/build-1.5.1.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/build/__init__.py",
+    "lib/python3.14/site-packages/build/__main__.py",
+    "lib/python3.14/site-packages/build/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/__pycache__/__main__.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/__pycache__/_builder.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/__pycache__/_ctx.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/__pycache__/_exceptions.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/__pycache__/_types.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/__pycache__/_util.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/__pycache__/env.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/__pycache__/util.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/_builder.py",
+    "lib/python3.14/site-packages/build/_compat/__init__.py",
+    "lib/python3.14/site-packages/build/_compat/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/_compat/__pycache__/importlib.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/_compat/__pycache__/tarfile.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/_compat/__pycache__/tomllib.cpython-314.pyc",
+    "lib/python3.14/site-packages/build/_compat/importlib.py",
+    "lib/python3.14/site-packages/build/_compat/tarfile.py",
+    "lib/python3.14/site-packages/build/_compat/tomllib.py",
+    "lib/python3.14/site-packages/build/_ctx.py",
+    "lib/python3.14/site-packages/build/_exceptions.py",
+    "lib/python3.14/site-packages/build/_types.py",
+    "lib/python3.14/site-packages/build/_util.py",
+    "lib/python3.14/site-packages/build/env.py",
+    "lib/python3.14/site-packages/build/py.typed",
+    "lib/python3.14/site-packages/build/util.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/pyproject-build",
+        "prefix_placeholder": "/home/task_TKckex5dTwm7q_0/croot/python-build_1784730476453/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "2ab4eb1e42fee57ce93f8d639ca1e76741560ce875dcf5532176e5fd53abfb9e",
+        "size_in_bytes": 479,
+        "sha256_in_prefix": "550585fd39f9f798e7390fc7f5130be7fd944a8cd8e2d38f66506b8dad589ec0"
+      },
+      {
+        "_path": "bin/python-build",
+        "prefix_placeholder": "/home/task_TKckex5dTwm7q_0/croot/python-build_1784730476453/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "2ab4eb1e42fee57ce93f8d639ca1e76741560ce875dcf5532176e5fd53abfb9e",
+        "size_in_bytes": 479,
+        "sha256_in_prefix": "550585fd39f9f798e7390fc7f5130be7fd944a8cd8e2d38f66506b8dad589ec0"
+      }
+    ]
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/python-build-1.5.1-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::python-build==1.5.1=py314h06a4308_0"
+  ]
+}

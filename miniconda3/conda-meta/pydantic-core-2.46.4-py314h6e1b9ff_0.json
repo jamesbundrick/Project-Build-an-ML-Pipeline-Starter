@@ -1,0 +1,56 @@
+{
+  "name": "pydantic-core",
+  "version": "2.46.4",
+  "build": "py314h6e1b9ff_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "pydantic-core-2.46.4-py314h6e1b9ff_0.conda",
+  "md5": "5fe6123a10088e3791df28cd0687a18c",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pydantic-core-2.46.4-py314h6e1b9ff_0.conda",
+  "sha256": "ec3b85ff6452f218d9a0dc7ec211eb2fc87bba7f00050f8cf525f2a4d7932fd4",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "__glibc >=2.28,<3.0.a0",
+    "libgcc >=14",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "typing-extensions >=4.14.1"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1778677080000,
+  "size": 1885837,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::pydantic-core==2.46.4=py314h6e1b9ff_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/pydantic-core-2.46.4-py314h6e1b9ff_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/pydantic-core-2.46.4-py314h6e1b9ff_0",
+  "files": [
+    "lib/python3.14/site-packages/pydantic_core-2.46.4.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/pydantic_core-2.46.4.dist-info/METADATA",
+    "lib/python3.14/site-packages/pydantic_core-2.46.4.dist-info/RECORD",
+    "lib/python3.14/site-packages/pydantic_core-2.46.4.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/pydantic_core-2.46.4.dist-info/WHEEL",
+    "lib/python3.14/site-packages/pydantic_core-2.46.4.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/pydantic_core-2.46.4.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/pydantic_core/__init__.py",
+    "lib/python3.14/site-packages/pydantic_core/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pydantic_core/__pycache__/core_schema.cpython-314.pyc",
+    "lib/python3.14/site-packages/pydantic_core/_pydantic_core.cpython-314-x86_64-linux-gnu.so",
+    "lib/python3.14/site-packages/pydantic_core/_pydantic_core.pyi",
+    "lib/python3.14/site-packages/pydantic_core/core_schema.py",
+    "lib/python3.14/site-packages/pydantic_core/py.typed"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/pydantic-core-2.46.4-py314h6e1b9ff_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::pydantic-core==2.46.4=py314h6e1b9ff_0"
+  ]
+}

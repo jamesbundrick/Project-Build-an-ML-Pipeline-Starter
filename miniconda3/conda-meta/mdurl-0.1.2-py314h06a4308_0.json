@@ -1,0 +1,59 @@
+{
+  "name": "mdurl",
+  "version": "0.1.2",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "mdurl-0.1.2-py314h06a4308_0.conda",
+  "md5": "5468ed9d63f66b60e9aba2431874fb40",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/mdurl-0.1.2-py314h06a4308_0.conda",
+  "sha256": "516beea38c8780b626072401c5e6eebba12b752de0cc099b73a16d74c8ba3410",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1759954154000,
+  "size": 29384,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::mdurl==0.1.2=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/mdurl-0.1.2-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/mdurl-0.1.2-py314h06a4308_0",
+  "files": [
+    "lib/python3.14/site-packages/mdurl-0.1.2.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/mdurl-0.1.2.dist-info/METADATA",
+    "lib/python3.14/site-packages/mdurl-0.1.2.dist-info/RECORD",
+    "lib/python3.14/site-packages/mdurl-0.1.2.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/mdurl-0.1.2.dist-info/WHEEL",
+    "lib/python3.14/site-packages/mdurl-0.1.2.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/mdurl-0.1.2.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/mdurl/__init__.py",
+    "lib/python3.14/site-packages/mdurl/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/mdurl/__pycache__/_decode.cpython-314.pyc",
+    "lib/python3.14/site-packages/mdurl/__pycache__/_encode.cpython-314.pyc",
+    "lib/python3.14/site-packages/mdurl/__pycache__/_format.cpython-314.pyc",
+    "lib/python3.14/site-packages/mdurl/__pycache__/_parse.cpython-314.pyc",
+    "lib/python3.14/site-packages/mdurl/__pycache__/_url.cpython-314.pyc",
+    "lib/python3.14/site-packages/mdurl/_decode.py",
+    "lib/python3.14/site-packages/mdurl/_encode.py",
+    "lib/python3.14/site-packages/mdurl/_format.py",
+    "lib/python3.14/site-packages/mdurl/_parse.py",
+    "lib/python3.14/site-packages/mdurl/_url.py",
+    "lib/python3.14/site-packages/mdurl/py.typed"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/mdurl-0.1.2-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::mdurl==0.1.2=py314h06a4308_0"
+  ]
+}

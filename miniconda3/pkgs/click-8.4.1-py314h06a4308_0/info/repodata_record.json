@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "fn": "click-8.4.1-py314h06a4308_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "1a1060e7b203d646e86db389c39d1b54",
+  "name": "click",
+  "platform": "linux",
+  "sha256": "ee4478318cc876a583d706281064f111770dee06253abcc154610a7b85234e04",
+  "size": 377218,
+  "subdir": "linux-64",
+  "timestamp": 1781176539000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/click-8.4.1-py314h06a4308_0.conda",
+  "version": "8.4.1"
+}

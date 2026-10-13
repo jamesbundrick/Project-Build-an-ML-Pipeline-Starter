@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "he45aeb6_0",
+  "build_number": 0,
+  "depends": [
+    "__glibc >=2.28,<3.0.a0",
+    "icu >=78.3,<79.0a0",
+    "libgcc >=14",
+    "libzlib >=1.3.2,<2.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "libxml2",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1784117130919,
+  "version": "2.15.3"
+}

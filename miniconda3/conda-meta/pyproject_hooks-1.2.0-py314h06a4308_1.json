@@ -1,0 +1,55 @@
+{
+  "name": "pyproject_hooks",
+  "version": "1.2.0",
+  "build": "py314h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "pyproject_hooks-1.2.0-py314h06a4308_1.conda",
+  "md5": "c459b50cb895c06f9e20f46c31c0a102",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pyproject_hooks-1.2.0-py314h06a4308_1.conda",
+  "sha256": "404bfc7974509c4c4b2d2de25ab74daa4c58231c5bb217f9a8864ecda8f22f39",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1761732871000,
+  "size": 32714,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::pyproject_hooks==1.2.0=py314h06a4308_1",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/pyproject_hooks-1.2.0-py314h06a4308_1.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/pyproject_hooks-1.2.0-py314h06a4308_1",
+  "files": [
+    "lib/python3.14/site-packages/pyproject_hooks-1.2.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/pyproject_hooks-1.2.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/pyproject_hooks-1.2.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/pyproject_hooks-1.2.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/pyproject_hooks-1.2.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/pyproject_hooks-1.2.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/pyproject_hooks-1.2.0.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/pyproject_hooks/__init__.py",
+    "lib/python3.14/site-packages/pyproject_hooks/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pyproject_hooks/__pycache__/_impl.cpython-314.pyc",
+    "lib/python3.14/site-packages/pyproject_hooks/_impl.py",
+    "lib/python3.14/site-packages/pyproject_hooks/_in_process/__init__.py",
+    "lib/python3.14/site-packages/pyproject_hooks/_in_process/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pyproject_hooks/_in_process/__pycache__/_in_process.cpython-314.pyc",
+    "lib/python3.14/site-packages/pyproject_hooks/_in_process/_in_process.py",
+    "lib/python3.14/site-packages/pyproject_hooks/py.typed"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/pyproject_hooks-1.2.0-py314h06a4308_1",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::pyproject_hooks==1.2.0=py314h06a4308_1"
+  ]
+}

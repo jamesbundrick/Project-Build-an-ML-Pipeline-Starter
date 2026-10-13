@@ -1,0 +1,11 @@
+#!/home/task_NqjVgKcmQyiRn_0/croot/unearth_1783060214125/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from unearth.__main__ import cli
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())

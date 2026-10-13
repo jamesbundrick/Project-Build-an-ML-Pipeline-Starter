@@ -1,0 +1,1 @@
+["pytest", "testpath", "setuptools >=30", "pip"]

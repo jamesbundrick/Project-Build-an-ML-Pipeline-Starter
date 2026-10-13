@@ -1,0 +1,89 @@
+# This file created by conda-build 26.3.0
+# meta.yaml template originally from:
+# /home/task_NIU9CYIcQEmi3_0/libxml2-feedstock/recipe, last modified Wed Jul 15 12:04:10 2026
+# ------------------------------------------------
+
+package:
+  name: libxml2
+  version: 2.15.3
+source:
+  url: https://gitlab.gnome.org/GNOME/libxml2/-/archive/v2.15.3/libxml2-v2.15.3.tar.gz
+  sha256: 0da50c1415f4ec0364569d2119b1436ba837b31df44af28569d234272c23cf1f
+build:
+  number: '0'
+  run_exports:
+    - libxml2 >=2.15.3,<2.16.0a0
+  string: he45aeb6_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 52_gnu
+    - autoconf 2.71 pl5340h5eee18b_0
+    - automake 1.16.5 pl5340h06a4308_1
+    - binutils_impl_linux-64 2.44 h78f17ca_3
+    - binutils_linux-64 2.44 hc03a8fd_3
+    - gcc_impl_linux-64 14.3.0 h4943218_4
+    - gcc_linux-64 14.3.0 hda73cce_14
+    - kernel-headers_linux-64 4.18.0 h3108a97_1
+    - ld_impl_linux-64 2.44 h9e0c5a2_3
+    - libgcc 15.2.0 h69a1729_8
+    - libgcc-devel_linux-64 14.3.0 he7458c1_104
+    - libgcc-ng 15.2.0 h166f726_8
+    - libgomp 15.2.0 h4751f2c_8
+    - libltdl 2.6.0 h47b2149_0
+    - libsanitizer 14.3.0 hd4faa28_4
+    - libstdcxx 15.2.0 h39759b7_8
+    - libtool 2.6.0 h7354ed3_0
+    - m4 1.4.18 h4e445db_0
+    - make 4.2.1 h1bed415_1
+    - perl 5.42.2 2_h47b2149_perl5
+    - pkg-config 0.29.2 h1bed415_8
+    - sysroot_linux-64 2.28 h3108a97_1
+    - tzdata 2026c he532380_0
+  host:
+    - _openmp_mutex 5.1 52_gnu
+    - icu 78.3 h53478e7_1
+    - libgcc 15.2.0 h69a1729_8
+    - libstdcxx 15.2.0 h39759b7_8
+    - libzlib 1.3.2 h47b2149_0
+    - zlib 1.3.2 h47b2149_0
+  run:
+    - __glibc >=2.28,<3.0.a0
+    - icu >=78.3,<79.0a0
+    - libgcc >=14
+    - libzlib >=1.3.2,<2.0a0
+test:
+  files:
+    - test.xml
+  commands:
+    - xmllint test.xml
+about:
+  home: https://gitlab.gnome.org/GNOME/libxml2
+  license: MIT
+  license_family: MIT
+  license_file: Copyright
+  summary: The XML C parser and toolkit of Gnome
+  description: 'Though libxml2 is written in C a variety of language
+
+    bindings make it available in other environments.
+
+    '
+  doc_url: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
+  dev_url: https://gitlab.gnome.org/GNOME/libxml2
+extra:
+  recipe-maintainers:
+    - chenghlee
+    - gillins
+    - jakirkham
+    - jschueller
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - scopatz
+  final: true
+  copy_test_source_files: true
+  remote_url: https://github.com/AnacondaRecipes/libxml2-feedstock
+  sha: c5efdf6422ba9dd197af55358758985895233ae5
+  task_id: NIU9CYIcQEmi3EY3OrmzyQ
+  task_run_id: '0'
+  pbp_graph_uuid: c303bd59-e763-4fc9-acfe-1a51657ec099

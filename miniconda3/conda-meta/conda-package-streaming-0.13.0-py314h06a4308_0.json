@@ -1,0 +1,65 @@
+{
+  "name": "conda-package-streaming",
+  "version": "0.13.0",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "conda-package-streaming-0.13.0-py314h06a4308_0.conda",
+  "md5": "f4c4da8b8bc614bcdd6607c6c2b1be23",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/conda-package-streaming-0.13.0-py314h06a4308_0.conda",
+  "sha256": "34bc73a92808fbf4c6c06da1130f27c08dd1c7b6abc84b7dfa306157ecd735f9",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "requests"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "timestamp": 1781731239000,
+  "size": 41560,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::conda-package-streaming==0.13.0=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/conda-package-streaming-0.13.0-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/conda-package-streaming-0.13.0-py314h06a4308_0",
+  "files": [
+    "lib/python3.14/site-packages/conda_package_streaming-0.13.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/conda_package_streaming-0.13.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/conda_package_streaming-0.13.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/conda_package_streaming-0.13.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/conda_package_streaming-0.13.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/conda_package_streaming-0.13.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/conda_package_streaming-0.13.0.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/conda_package_streaming/__init__.py",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/create.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/exceptions.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/extract.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/lazy_wheel.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/package_streaming.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/s3.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/transmute.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/__pycache__/url.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_package_streaming/create.py",
+    "lib/python3.14/site-packages/conda_package_streaming/exceptions.py",
+    "lib/python3.14/site-packages/conda_package_streaming/extract.py",
+    "lib/python3.14/site-packages/conda_package_streaming/lazy_wheel.py",
+    "lib/python3.14/site-packages/conda_package_streaming/package_streaming.py",
+    "lib/python3.14/site-packages/conda_package_streaming/s3.py",
+    "lib/python3.14/site-packages/conda_package_streaming/transmute.py",
+    "lib/python3.14/site-packages/conda_package_streaming/url.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/conda-package-streaming-0.13.0-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::conda-package-streaming==0.13.0=py314h06a4308_0"
+  ]
+}

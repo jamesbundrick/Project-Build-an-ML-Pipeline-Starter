@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64/",
+  "constrains": [],
+  "depends": [
+    "conda >=26.1.1",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "fn": "conda-self-0.2.1-py314h06a4308_0.conda",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "6e11b7e8d66fdcaa6544a36ea36323a1",
+  "name": "conda-self",
+  "platform": "linux",
+  "sha256": "0c954dc5e81bc40d5dddea27da3e880d402f224dee5fa1378d2c2654ecbd9198",
+  "size": 41863,
+  "subdir": "linux-64",
+  "timestamp": 1784728646000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/conda-self-0.2.1-py314h06a4308_0.conda",
+  "version": "0.2.1"
+}

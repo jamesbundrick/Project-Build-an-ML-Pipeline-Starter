@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py314h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "fn": "filelock-3.29.4-py314h06a4308_1.conda",
+  "license": "Unlicense",
+  "license_family": "Public-Domain",
+  "md5": "ed79f62110d52b2753f6952b1c2939ce",
+  "name": "filelock",
+  "platform": "linux",
+  "sha256": "67218b3059a8b895937ce8b2840e3243e028e73a49cc2a1605bd315238d59874",
+  "size": 107871,
+  "subdir": "linux-64",
+  "timestamp": 1787826213000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/filelock-3.29.4-py314h06a4308_1.conda",
+  "version": "3.29.4"
+}

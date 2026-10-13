@@ -1,0 +1,67 @@
+{% set name = "truststore" %}
+{% set version = "0.10.4" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/sethmlarson/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
+  fn: {{ name }}-{{ version }}.tar.gz
+  sha256: 206df24198a4a1257e3f9d9a02bbf09a526211d59fcc5f9f7e9b71b5079a9aa9
+
+build:
+  skip: true  # [py<310]
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  number: 0
+
+requirements:
+  host:
+    - python
+    - pip
+    - flit-core >=3.11,<4
+  run:
+    - python
+
+test:
+  requires:
+    - pip
+    - aiohttp
+    - pyopenssl
+    - pytest
+    - pytest-asyncio
+    - pytest-httpserver
+    - urllib3
+    - trustme
+    - requests
+    - flaky
+    - httpx
+  imports:
+    - truststore
+  source_files:
+    - tests
+  commands:
+    - pip check
+    # @internet is not registered here (see warnings), so marked tests still run.
+    # Skip live-network cases that routinely fail on PBP (DNS, badssl resets), not
+    # truststore logic: test_success_with_inject (1.1.1.1 404); test_minimum_maximum_version
+    # (howsmyssl.com — no DNS on osx-arm64); superfish.badssl.com (connection reset vs SSLError on win).
+    - pytest -k "not (test_failures or test_failure_after_loading_additional_anchors or test_success_with_inject or test_minimum_maximum_version or superfish)" tests/  # [win]
+    - pytest -k 'not (test_failures or test_failure_after_loading_additional_anchors or test_success_with_inject or test_minimum_maximum_version)' tests/  # [unix]
+
+about:
+  home: https://github.com/sethmlarson/truststore
+  summary: Verify certificates using native system trust stores
+  description: |
+    A library which exposes native system certificate stores (ie "trust stores")
+    through an ssl.SSLContext-like API. This means that Python applications no
+    longer need to rely on certifi as a root certificate store.
+  license: MIT
+  license_file: LICENSE
+  license_family: MIT
+  doc_url: https://truststore.readthedocs.io
+  dev_url: https://github.com/sethmlarson/truststore
+
+extra:
+  recipe-maintainers:
+    - conda-forge/truststore

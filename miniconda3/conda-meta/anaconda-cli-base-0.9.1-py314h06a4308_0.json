@@ -1,0 +1,96 @@
+{
+  "name": "anaconda-cli-base",
+  "version": "0.9.1",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "anaconda-cli-base-0.9.1-py314h06a4308_0.conda",
+  "md5": "2accb62b9340fa8e381269b4fb69568e",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/anaconda-cli-base-0.9.1-py314h06a4308_0.conda",
+  "sha256": "977e6e4344820587acd4dd42e7381cd00eaca7cc15c8f28f1faeaed9dcae3613",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "click",
+    "packaging >=23.0",
+    "pydantic >=2.12",
+    "pydantic-settings >=2.3",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "readchar",
+    "rich",
+    "tomli",
+    "tomlkit",
+    "typer >=0.17"
+  ],
+  "constrains": [
+    "anaconda-cloud-cli >=0.3.0",
+    "anaconda-auth >=0.12.0",
+    "anaconda-client >=1.13.0"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "timestamp": 1782138742000,
+  "size": 90462,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::anaconda-cli-base==0.9.1=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/anaconda-cli-base-0.9.1-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/anaconda-cli-base-0.9.1-py314h06a4308_0",
+  "files": [
+    "bin/anaconda",
+    "lib/python3.14/site-packages/anaconda_cli_base-0.9.1.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/anaconda_cli_base-0.9.1.dist-info/METADATA",
+    "lib/python3.14/site-packages/anaconda_cli_base-0.9.1.dist-info/RECORD",
+    "lib/python3.14/site-packages/anaconda_cli_base-0.9.1.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/anaconda_cli_base-0.9.1.dist-info/WHEEL",
+    "lib/python3.14/site-packages/anaconda_cli_base-0.9.1.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/anaconda_cli_base-0.9.1.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/anaconda_cli_base-0.9.1.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/anaconda_cli_base/__init__.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/__main__.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/__main__.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/_version.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/cli.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/config.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/console.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/deprecations.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/exceptions.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/lifecycle.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/plugins.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/telemetry.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/__pycache__/telemetry_config.cpython-314.pyc",
+    "lib/python3.14/site-packages/anaconda_cli_base/_version.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/cli.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/config.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/console.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/deprecations.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/exceptions.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/lifecycle.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/plugins.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/py.typed",
+    "lib/python3.14/site-packages/anaconda_cli_base/telemetry.py",
+    "lib/python3.14/site-packages/anaconda_cli_base/telemetry_config.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/anaconda",
+        "prefix_placeholder": "/home/task_178213868123692/croot/anaconda-cli-base_1782138723367/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "a107d141f6f0d7586fddf0d2f6c4ea0a08475ed4b7c48764c38af653f9dc78c6",
+        "size_in_bytes": 472,
+        "sha256_in_prefix": "a390037f354ee52a11af6d6a4ca11f42749ab68c5096498e069b0e5c8085389f"
+      }
+    ]
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/anaconda-cli-base-0.9.1-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::anaconda-cli-base==0.9.1=py314h06a4308_0"
+  ]
+}

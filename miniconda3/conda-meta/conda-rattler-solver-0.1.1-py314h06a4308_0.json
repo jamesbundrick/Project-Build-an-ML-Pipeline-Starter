@@ -1,0 +1,68 @@
+{
+  "name": "conda-rattler-solver",
+  "version": "0.1.1",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "conda-rattler-solver-0.1.1-py314h06a4308_0.conda",
+  "md5": "145d0620d8ce3c6850f5c1b01458406a",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/conda-rattler-solver-0.1.1-py314h06a4308_0.conda",
+  "sha256": "8cc0b346bfb902435a75504aa3b5475f8779578da0c0ab79bae5645c5e11c95e",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "conda >=26.5.0",
+    "py-rattler >=0.25.0,<0.26.0a0",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "timestamp": 1782413933000,
+  "size": 139560,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::conda-rattler-solver==0.1.1=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/conda-rattler-solver-0.1.1-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/conda-rattler-solver-0.1.1-py314h06a4308_0",
+  "files": [
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/METADATA",
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/RECORD",
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/WHEEL",
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/licenses/AUTHORS.md",
+    "lib/python3.14/site-packages/conda_rattler_solver-0.1.1.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/conda_rattler_solver/__init__.py",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/_conda_build_exceptions.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/_version.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/exceptions.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/index.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/plugin.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/solver.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/state.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/conda_rattler_solver/_conda_build_exceptions.py",
+    "lib/python3.14/site-packages/conda_rattler_solver/_version.py",
+    "lib/python3.14/site-packages/conda_rattler_solver/exceptions.py",
+    "lib/python3.14/site-packages/conda_rattler_solver/index.py",
+    "lib/python3.14/site-packages/conda_rattler_solver/plugin.py",
+    "lib/python3.14/site-packages/conda_rattler_solver/solver.py",
+    "lib/python3.14/site-packages/conda_rattler_solver/state.py",
+    "lib/python3.14/site-packages/conda_rattler_solver/utils.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/conda-rattler-solver-0.1.1-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::conda-rattler-solver==0.1.1=py314h06a4308_0"
+  ]
+}

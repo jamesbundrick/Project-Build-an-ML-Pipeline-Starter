@@ -1,0 +1,61 @@
+{
+  "name": "tomli-w",
+  "version": "1.2.0",
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "subdir": "noarch",
+  "fn": "tomli-w-1.2.0-pyhd3eb1b0_0.conda",
+  "md5": "9d377a4c8f6b22530328d0726948c03a",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/tomli-w-1.2.0-pyhd3eb1b0_0.conda",
+  "sha256": "43e13e53025f6b4bd99644b5cd81f72e4778a80bf616aefcecf4391ffb049e8f",
+  "depends": [
+    "python >=3.9"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "MIT",
+  "license_family": "MIT",
+  "package_type": "noarch_python",
+  "timestamp": 1738351336000,
+  "size": 11550,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/noarch::tomli-w==1.2.0=pyhd3eb1b0_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/tomli-w-1.2.0-pyhd3eb1b0_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/tomli-w-1.2.0-pyhd3eb1b0_0",
+  "files": [
+    "lib/python3.14/site-packages/tomli_w-1.2.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/tomli_w-1.2.0.dist-info/LICENSE",
+    "lib/python3.14/site-packages/tomli_w-1.2.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/tomli_w-1.2.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/tomli_w-1.2.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/tomli_w-1.2.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/tomli_w-1.2.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/tomli_w/__init__.py",
+    "lib/python3.14/site-packages/tomli_w/_writer.py",
+    "lib/python3.14/site-packages/tomli_w/py.typed",
+    "lib/python3.14/site-packages/tomli_w/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/tomli_w/__pycache__/_writer.cpython-314.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/python3.14/site-packages/tomli_w/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/python3.14/site-packages/tomli_w/__pycache__/_writer.cpython-314.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 13094
+      }
+    ]
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/tomli-w-1.2.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/noarch::tomli-w==1.2.0=pyhd3eb1b0_0"
+  ]
+}

@@ -1,0 +1,105 @@
+{% set name = "conda-rattler-solver" %}
+{% set version = "0.1.1" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/conda/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+  sha256: 5bb558d6d125d5312886e3d98ce592105679e37d44ec78bfb8ace8c114d78b6e
+
+build:
+  number: 0
+  skip: true  # [py<310]
+  script: {{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
+
+requirements:
+  host:
+    - pip
+    - python
+    - hatchling
+    - hatch-vcs
+  run:
+    - python
+    - conda >=26.5.0
+    - py-rattler >=0.25.0,<0.26.0a0
+
+{% set deselect_tests = "" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_channels.py::test_conda_build_with_aliased_channels" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_channels.py::test_unknown_channels_do_not_crash" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_downstream.py::test_build_recipe" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_downstream.py::test_conda_lock" %}
+# Tests hang on this one
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_performance.py::test_install_vaex_from_conda_forge_and_defaults" %}
+# FileNotFoundError: [Errno 2] No such file or directory: '$PREFIX/lib/python3.11/site-packages/tests/data/index.json'
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_empty" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_anaconda_nomkl" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_from_r1" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_get_dists" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_timestamps_and_deps" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_nonexistent_deps" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_install_package_with_feature" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_circular_dependencies" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_irrational_version" %}
+# OSError: invalid archive identifier 'b-1.0-0': invalid archive identifier
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_simple" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_shortest_chain_1" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_shortest_chain_2" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_shortest_chain_3" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_shortest_chain_4" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_chain" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_any_two_not_three" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_expand_single" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_unsat_missing_dep" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_get_reduced_index_broadening_with_unsatisfiable_early_dep" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_get_reduced_index_broadening_preferred_solution" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_arch_preferred_over_noarch_when_otherwise_equal" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_noarch_preferred_over_arch_when_version_greater" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_noarch_preferred_over_arch_when_version_greater_dep" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_noarch_preferred_over_arch_when_build_greater" %}
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::TestRattlerSolver::test_noarch_preferred_over_arch_when_build_greater_dep" %}
+# Linux hanging on this ones
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver_differences.py::test_gpu_cpu_mutexes" %}  # [linux]
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver_differences.py::test_old_panel" %}  # [linux]
+# AssertionError: assert 116 <= 1
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::test_too_aggressive_update_to_conda_forge_packages" %}  # [linux]
+# conda_rattler_solver.exceptions.RattlerUnsatisfiableError: Cannot solve the request because of: The following packages are incompatible
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::test_pinned_with_cli_build_string" %}  # [linux]
+# py-rattler 0.25: noarch pip not reinstalled on py downgrade; pip 26.x needs py>=3.10 (dataclass slots)
+{% set deselect_tests = deselect_tests + " --deselect=tests/test_solver.py::test_python_downgrade_reinstalls_noarch_packages" %}
+
+test:
+  source_files:
+    - tests
+    - pyproject.toml
+  imports:
+    - conda_rattler_solver.solver
+  requires:
+    - pip
+    - pytest
+    - pytest-xprocess
+    - conda-index
+  commands:
+    - pip check
+    - python -m conda create --dry-run python --solver=rattler
+    - pytest -vv tests {{ deselect_tests }}
+
+about:
+  home: https://github.com/conda/conda-rattler-solver
+  summary: The fast pixi solver, now in conda
+  description: |
+    If conda-libmamba-solver brought the mamba solver to conda, conda-rattler-solver tries to
+    integrate the pixi solver (called resolvo, as provided in rattler) in conda.
+    Environments solve meaningfully faster with Rattler, especially large or complex ones, and
+    your existing environments and workflows keep working.
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  dev_url: https://github.com/conda/conda-rattler-solver
+  doc_url: https://github.com/conda/conda-rattler-solver/blob/main/README.md
+
+extra:
+  recipe-maintainers:
+    - danyeaw
+    - jaimergp

@@ -1,0 +1,64 @@
+{% set name = "filelock" %}
+{% set version = "3.29.4" %}
+
+package:
+  name: {{ name }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 10cdb3656fc44541cdf30652a93fb10ec6b05325620eb316bd26893e4201538a
+
+build:
+  number: 1
+  script: {{ PYTHON }} -m pip install --no-deps --no-build-isolation . -vv
+  skip: true  # [py<310]
+
+requirements:
+  host:
+    - pip
+    - python
+    - hatch-vcs >=0.5
+    - hatchling >=1.29
+  run:
+    - python
+
+test:
+  source_files:
+    - tests
+  imports:
+    - filelock
+  requires:
+    - pip
+    - pytest >=9.0.3
+    - pytest-mock >=3.15.1
+    - pytest-asyncio >=1.3
+    # >=21.2 in upstream, but we don't have that
+    - virtualenv >=20.28.0  # [not (win and arm64)]
+    - virtualenv # [win and arm64]
+  commands:
+    - pip check
+    - python -c "from importlib.metadata import version; assert(version('{{ name }}')=='{{ version }}')"
+    - pytest -vv tests  # [not (win and arm64)]
+    - pytest -vv tests --ignore=tests/test_virtualenv.py  # [win and arm64]
+
+about:
+  home: https://github.com/tox-dev/py-filelock
+  license: Unlicense
+  license_family: Public-Domain
+  license_file: LICENSE
+  summary: A platform independent file lock.
+  description: |
+    A filelock provides a synchronization mechanism between different
+    instances of your application, similar to a thread lock. It can be
+    used to signalize that files, directories or other resources are
+    currently used or manipulated (Think of a sync.lock file). Only the
+    existence of the lockfile is watched for this purpose. The file itself
+    can not be written and is always empty.
+  doc_url: https://py-filelock.readthedocs.io
+  dev_url: https://github.com/tox-dev/py-filelock
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - mariusvniekerk

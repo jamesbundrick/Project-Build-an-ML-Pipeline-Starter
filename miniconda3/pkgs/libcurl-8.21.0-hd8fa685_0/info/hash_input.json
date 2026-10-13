@@ -1,0 +1,18 @@
+{
+  "c_compiler": "gcc",
+  "c_stdlib": "sysroot",
+  "libssh2": "1",
+  "zstd": "1.5",
+  "target_platform": "linux-64",
+  "brotli": "1",
+  "zlib": "1",
+  "channel_targets": "defaults",
+  "libcurl": "8",
+  "libnghttp2": "1.69.0",
+  "openssl": "3",
+  "krb5": "1.22",
+  "libidn2": "2",
+  "c_compiler_version": "14.3.0",
+  "c_stdlib_version": "2.28",
+  "__glibc": "__glibc >=2.28,<3.0.a0"
+}

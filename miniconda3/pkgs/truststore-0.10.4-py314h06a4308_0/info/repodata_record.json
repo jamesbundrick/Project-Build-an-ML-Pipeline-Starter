@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "fn": "truststore-0.10.4-py314h06a4308_0.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "fb22421ce3ea30789b073da6fe7c1efe",
+  "name": "truststore",
+  "platform": "linux",
+  "sha256": "2ee93b6ad7f355d1565d96b714bdf1683381fe50e1567e37458b9ddded3e890e",
+  "size": 51708,
+  "subdir": "linux-64",
+  "timestamp": 1778600080000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/truststore-0.10.4-py314h06a4308_0.conda",
+  "version": "0.10.4"
+}

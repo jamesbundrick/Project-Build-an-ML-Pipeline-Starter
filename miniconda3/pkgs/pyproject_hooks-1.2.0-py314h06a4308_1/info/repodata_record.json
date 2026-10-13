@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py314h06a4308_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64/",
+  "constrains": [],
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "fn": "pyproject_hooks-1.2.0-py314h06a4308_1.conda",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "c459b50cb895c06f9e20f46c31c0a102",
+  "name": "pyproject_hooks",
+  "platform": "linux",
+  "sha256": "404bfc7974509c4c4b2d2de25ab74daa4c58231c5bb217f9a8864ecda8f22f39",
+  "size": 32714,
+  "subdir": "linux-64",
+  "timestamp": 1761732871000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pyproject_hooks-1.2.0-py314h06a4308_1.conda",
+  "version": "1.2.0"
+}

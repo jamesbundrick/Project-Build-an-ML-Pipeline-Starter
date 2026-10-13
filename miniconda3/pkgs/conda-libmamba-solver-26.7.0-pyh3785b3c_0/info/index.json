@@ -1,0 +1,19 @@
+{
+  "arch": null,
+  "build": "pyh3785b3c_0",
+  "build_number": 0,
+  "depends": [
+    "boltons >=23.0.0",
+    "conda >=26.5",
+    "libmambapy >=2.0.0,!=2.6.2",
+    "python >=3.10"
+  ],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "name": "conda-libmamba-solver",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1784135330205,
+  "version": "26.7.0"
+}

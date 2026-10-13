@@ -1,0 +1,86 @@
+{
+  "name": "wheel",
+  "version": "0.47.0",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "wheel-0.47.0-py314h06a4308_0.conda",
+  "md5": "1d4f7587d16d0d7b1732bef4a3808749",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/wheel-0.47.0-py314h06a4308_0.conda",
+  "sha256": "9adab37fc39e81068ea862bf3c5654c780595ebd6cfe944320724c22ab64aae3",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "packaging >=26.0",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1781690829000,
+  "size": 76739,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::wheel==0.47.0=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/wheel-0.47.0-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/wheel-0.47.0-py314h06a4308_0",
+  "files": [
+    "bin/wheel",
+    "lib/python3.14/site-packages/wheel-0.47.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/wheel-0.47.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/wheel-0.47.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/wheel-0.47.0.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/wheel-0.47.0.dist-info/licenses/LICENSE.txt",
+    "lib/python3.14/site-packages/wheel/__init__.py",
+    "lib/python3.14/site-packages/wheel/__main__.py",
+    "lib/python3.14/site-packages/wheel/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/__pycache__/__main__.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/__pycache__/_bdist_wheel.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/__pycache__/_metadata.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/__pycache__/_setuptools_logging.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/__pycache__/bdist_wheel.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/__pycache__/macosx_libfile.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/__pycache__/metadata.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/__pycache__/wheelfile.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/_bdist_wheel.py",
+    "lib/python3.14/site-packages/wheel/_commands/__init__.py",
+    "lib/python3.14/site-packages/wheel/_commands/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/_commands/__pycache__/convert.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/_commands/__pycache__/info.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/_commands/__pycache__/pack.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/_commands/__pycache__/tags.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/_commands/__pycache__/unpack.cpython-314.pyc",
+    "lib/python3.14/site-packages/wheel/_commands/convert.py",
+    "lib/python3.14/site-packages/wheel/_commands/info.py",
+    "lib/python3.14/site-packages/wheel/_commands/pack.py",
+    "lib/python3.14/site-packages/wheel/_commands/tags.py",
+    "lib/python3.14/site-packages/wheel/_commands/unpack.py",
+    "lib/python3.14/site-packages/wheel/_metadata.py",
+    "lib/python3.14/site-packages/wheel/_setuptools_logging.py",
+    "lib/python3.14/site-packages/wheel/bdist_wheel.py",
+    "lib/python3.14/site-packages/wheel/macosx_libfile.py",
+    "lib/python3.14/site-packages/wheel/metadata.py",
+    "lib/python3.14/site-packages/wheel/wheelfile.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/wheel",
+        "prefix_placeholder": "/home/task_178169058698775/croot/wheel_1781690811963/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "db16d3fe9eaa726d277bcb247104b4371583c0f0660687270a9ac64f944cf21a",
+        "size_in_bytes": 468,
+        "sha256_in_prefix": "0cb1ef40962078ce81dbf7d58e276cfc632e0c7a00a34d7f07a83f71b445a0da"
+      }
+    ]
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/wheel-0.47.0-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::wheel==0.47.0=py314h06a4308_0"
+  ]
+}

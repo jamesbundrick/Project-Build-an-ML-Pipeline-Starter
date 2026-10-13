@@ -1,0 +1,52 @@
+{
+  "name": "pycosat",
+  "version": "0.6.6",
+  "build": "py314h5eee18b_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "pycosat-0.6.6-py314h5eee18b_2.conda",
+  "md5": "caac4fc634dd36ddc2f49a2729f34aa2",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pycosat-0.6.6-py314h5eee18b_2.conda",
+  "sha256": "78a264fdc478b91aec168deb74350c98ddd29b9db2b54b32fea49ba1aba37f5c",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "libgcc-ng >=11.2.0",
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1759980189000,
+  "size": 89449,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::pycosat==0.6.6=py314h5eee18b_2",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/pycosat-0.6.6-py314h5eee18b_2.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/pycosat-0.6.6-py314h5eee18b_2",
+  "files": [
+    "lib/python3.14/site-packages/__pycache__/test_pycosat.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/METADATA",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/RECORD",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/WHEEL",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/licenses/AUTHORS.md",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/pycosat-0.6.6.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/pycosat.cpython-314-x86_64-linux-gnu.so",
+    "lib/python3.14/site-packages/test_pycosat.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/pycosat-0.6.6-py314h5eee18b_2",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::pycosat==0.6.6=py314h5eee18b_2"
+  ]
+}

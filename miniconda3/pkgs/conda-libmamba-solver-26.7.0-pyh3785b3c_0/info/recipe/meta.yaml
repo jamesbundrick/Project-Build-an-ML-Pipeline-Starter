@@ -1,0 +1,142 @@
+# This file created by conda-build 26.3.0
+# meta.yaml template originally from:
+# /home/task_Cr-3rYb_Svu0h_0/conda-libmamba-solver-feedstock/recipe, last modified Wed Jul 15 17:07:56 2026
+# ------------------------------------------------
+
+package:
+  name: conda-libmamba-solver
+  version: 26.7.0
+source:
+  url: https://github.com/conda/conda-libmamba-solver/archive/refs/tags/26.7.0.tar.gz
+  sha256: 785d6035eedf511c6755d53a5ff34634a56427be49fd337bb6433c2270b4fdb6
+  folder: src/
+build:
+  number: '0'
+  noarch: python
+  script: /home/task_Cr-3rYb_Svu0h_0/croot/conda-libmamba-solver_1784135307254/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+    -m pip install src/ -vv --no-deps --no-build-isolation
+  string: pyh3785b3c_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 52_gnu
+    - bzip2 1.0.8 h5eee18b_6
+    - c-ares 1.34.7 hd44998d_0
+    - ca-certificates 2026.5.14 h06a4308_0
+    - cpp-expected 1.1.0 hdb19cb5_0
+    - fmt 12.1.0 h44f220b_0
+    - gettext 0.25.1 h92eb808_0
+    - gettext-tools 0.25.1 h6a67909_0
+    - hatch-vcs 0.5.0 py314h06a4308_0
+    - hatchling 1.29.0 py314h06a4308_0
+    - icu 78.3 h53478e7_1
+    - jansson 2.15.0 hbcba0ee_0
+    - ld_impl_linux-64 2.44 h9e0c5a2_3
+    - libarchive 3.8.7 hb3cce40_0
+    - libasprintf 0.25.1 hf2ab22a_0
+    - libasprintf-devel 0.25.1 hf2ab22a_0
+    - libbrotlicommon 1.2.0 h32cd6e7_0
+    - libbrotlidec 1.2.0 ha2c5f68_0
+    - libbrotlienc 1.2.0 h2e96acb_0
+    - libcurl 8.21.0 hd8fa685_0
+    - libev 4.33 h7f8727e_1
+    - libexpat 2.8.2 h7354ed3_1
+    - libffi 3.4.8 h06d3fd0_3
+    - libgcc 15.2.0 h69a1729_8
+    - libgcc-ng 15.2.0 h166f726_8
+    - libgettextpo 0.25.1 hf2ab22a_0
+    - libgettextpo-devel 0.25.1 hf2ab22a_0
+    - libiconv 1.18 h75a1612_0
+    - libidn2 2.3.8 hf80d704_0
+    - libkrb5 1.22.2 hbd13c29_0
+    - libmamba 2.3.2 he97f470_3
+    - libmambapy 2.3.2 py314heb26620_3
+    - libmpdec 4.0.1 h47b2149_0
+    - libnghttp2 1.69.0 hc59f8b6_0
+    - libsolv 0.7.39 h04d0c11_0
+    - libssh2 1.11.1 h251f7ec_0
+    - libstdcxx 15.2.0 h39759b7_8
+    - libstdcxx-ng 15.2.0 hc03a8fd_8
+    - libunistring 1.4.2 h34b0ebb_0
+    - libuuid 1.41.5 h5eee18b_0
+    - libxcb 1.17.0 h9b100fa_0
+    - libxml2 2.14.6 hf2a51f9_1
+    - libzlib 1.3.2 h47b2149_0
+    - lmdb 0.9.31 hb25bd0a_0
+    - lz4-c 1.9.4 h7354ed3_5
+    - ncurses 6.5 h7934f7d_0
+    - nlohmann_json 3.11.2 h6a678d5_0
+    - openssl 3.5.7 h1b28b03_0
+    - packaging 26.0 py314h06a4308_0
+    - pathspec 1.0.4 py314h06a4308_0
+    - pcre2 10.46 hf426167_0
+    - pip 26.1.2 pyh0d26453_0
+    - pluggy 1.6.0 py314h06a4308_0
+    - pthread-stubs 0.3 h0ce48e5_1
+    - pybind11-abi 5 hd3eb1b0_0
+    - python 3.14.6 h4bdf6f9_101_cp314
+    - python_abi 3.14 4_cp314
+    - readline 8.3 hc2a1206_0
+    - reproc 14.2.7 h7bdf020_0
+    - reproc-cpp 14.2.7 h7bdf020_0
+    - setuptools 83.0.0 py314h06a4308_0
+    - setuptools-scm 10.0.5 py314h06a4308_0
+    - simdjson 3.10.1 hdb19cb5_0
+    - sqlite 3.53.2 h795bf6d_0
+    - tk 8.6.15 h54e0aa7_0
+    - trove-classifiers 2026.1.14.14 py314h06a4308_0
+    - tzdata 2026c he532380_0
+    - vcs-versioning 1.1.1 py314h06a4308_0
+    - xorg-libx11 1.8.12 h9b100fa_1
+    - xorg-libxau 1.0.12 h9b100fa_0
+    - xorg-libxdmcp 1.1.5 h9b100fa_0
+    - xorg-xorgproto 2024.1 h47b2149_2
+    - xz 5.8.2 h448239c_0
+    - yaml-cpp 0.9.0 he852c71_1
+    - zlib 1.3.2 h47b2149_0
+    - zstd 1.5.7 h11fc155_0
+  run:
+    - boltons >=23.0.0
+    - conda >=26.5
+    - libmambapy >=2.0.0,!=2.6.2
+    - python >=3.10
+test:
+  imports:
+    - conda_libmamba_solver
+  commands:
+    - python -c "from importlib.metadata import version; assert(version('conda-libmamba-solver')=='26.7.0')"
+    - CONDA_SOLVER=libmamba conda create -n test --dry-run scipy
+    - conda create --solver libmamba -n test --dry-run scipy
+about:
+  home: https://github.com/conda/conda-libmamba-solver
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: src/LICENSE
+  summary: The fast mamba solver, now in conda!
+  description: 'The conda-libmamba-solver is a new solver for the conda package manager
+
+    which uses the solver from the mamba project behind the scenes,
+
+    while carefully implementing conda''s functionality and expected behaviors on
+    top.
+
+    The library used by mamba to do the heavy-lifting is called libsolv.
+
+    '
+  dev_url: https://github.com/conda/conda-libmamba-solver
+  doc_url: https://conda.github.io/conda-libmamba-solver/
+extra:
+  recipe-maintainers:
+    - jaimergp
+    - jezdez
+    - wolfv
+  skip-lints:
+    - avoid_noarch
+    - missing_pip_check
+  final: true
+  copy_test_source_files: true
+  remote_url: https://github.com/AnacondaRecipes/conda-libmamba-solver-feedstock
+  sha: 24ad6390d38fb083c99e8177410071b3e60ff1ef
+  task_id: Cr-3rYb_Svu0hM8kok86WQ
+  task_run_id: '0'
+  pbp_graph_uuid: ae663354-ee57-4467-9f83-7ba98762ebfb

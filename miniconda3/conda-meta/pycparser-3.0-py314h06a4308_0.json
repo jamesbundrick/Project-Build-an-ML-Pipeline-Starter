@@ -1,0 +1,62 @@
+{
+  "name": "pycparser",
+  "version": "3.0",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "pycparser-3.0-py314h06a4308_0.conda",
+  "md5": "1ba2f9fc0dfd576db7b5712ca2aef4fe",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pycparser-3.0-py314h06a4308_0.conda",
+  "sha256": "e301a615bc771919a5927071418d69b5b10ca3dab7629ebdf9ff669045477160",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "timestamp": 1774959755000,
+  "size": 161135,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::pycparser==3.0=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/pycparser-3.0-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/pycparser-3.0-py314h06a4308_0",
+  "files": [
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/pycparser-3.0.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/pycparser/__init__.py",
+    "lib/python3.14/site-packages/pycparser/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/_ast_gen.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/ast_transforms.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/c_ast.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/c_generator.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/c_lexer.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/__pycache__/c_parser.cpython-314.pyc",
+    "lib/python3.14/site-packages/pycparser/_ast_gen.py",
+    "lib/python3.14/site-packages/pycparser/_c_ast.cfg",
+    "lib/python3.14/site-packages/pycparser/ast_transforms.py",
+    "lib/python3.14/site-packages/pycparser/c_ast.py",
+    "lib/python3.14/site-packages/pycparser/c_generator.py",
+    "lib/python3.14/site-packages/pycparser/c_lexer.py",
+    "lib/python3.14/site-packages/pycparser/c_parser.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/pycparser-3.0-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::pycparser==3.0=py314h06a4308_0"
+  ]
+}

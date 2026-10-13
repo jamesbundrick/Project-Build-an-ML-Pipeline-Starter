@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "hc68a75d_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64/",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.28,<3.0.a0",
+    "libgcc >=14",
+    "libiconv >=1.18,<2.0a0",
+    "libxml2 2.15.3.*",
+    "libxml2 >=2.15.3,<2.16.0a0",
+    "ncurses >=6.5,<7.0a0"
+  ],
+  "fn": "gettext-tools-0.25.1-hc68a75d_2.conda",
+  "license": "GPL-3.0-or-later",
+  "md5": "b016b6b46058c08821e050527c8a541d",
+  "name": "gettext-tools",
+  "platform": "linux",
+  "sha256": "c36e8bef34c7cd9985369d4e343523f12a449bee597a967b9fc56c8decb7f1b3",
+  "size": 3489758,
+  "subdir": "linux-64",
+  "timestamp": 1784195604000,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/gettext-tools-0.25.1-hc68a75d_2.conda",
+  "version": "0.25.1"
+}

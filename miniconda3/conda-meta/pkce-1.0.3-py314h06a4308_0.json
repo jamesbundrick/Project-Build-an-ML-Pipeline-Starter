@@ -1,0 +1,50 @@
+{
+  "name": "pkce",
+  "version": "1.0.3",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "pkce-1.0.3-py314h06a4308_0.conda",
+  "md5": "69dcf5ba17236d1a03fcb91fd74f7d63",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pkce-1.0.3-py314h06a4308_0.conda",
+  "sha256": "c126825b457167f172356ea00b75d1275b58d23feea5dd58ea97dc77021702e6",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1759959966000,
+  "size": 11647,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::pkce==1.0.3=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/pkce-1.0.3-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/pkce-1.0.3-py314h06a4308_0",
+  "files": [
+    "lib/python3.14/site-packages/pkce-1.0.3.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/pkce-1.0.3.dist-info/METADATA",
+    "lib/python3.14/site-packages/pkce-1.0.3.dist-info/RECORD",
+    "lib/python3.14/site-packages/pkce-1.0.3.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/pkce-1.0.3.dist-info/WHEEL",
+    "lib/python3.14/site-packages/pkce-1.0.3.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/pkce-1.0.3.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/pkce-1.0.3.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/pkce/__init__.py",
+    "lib/python3.14/site-packages/pkce/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pkce/py.typed"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/pkce-1.0.3-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::pkce==1.0.3=py314h06a4308_0"
+  ]
+}

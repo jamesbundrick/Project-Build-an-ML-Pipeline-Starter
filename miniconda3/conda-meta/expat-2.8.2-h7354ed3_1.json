@@ -1,0 +1,43 @@
+{
+  "name": "expat",
+  "version": "2.8.2",
+  "build": "h7354ed3_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "expat-2.8.2-h7354ed3_1.conda",
+  "md5": "0023df86c74b6e24a54f1d8122fb4ae9",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/expat-2.8.2-h7354ed3_1.conda",
+  "sha256": "5af0c8949041bb755807b43fd9e70436fa9f5e9ca56f92f5841bdcb9c902f347",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "__glibc >=2.28,<3.0.a0",
+    "libexpat 2.8.2 h7354ed3_1",
+    "libgcc >=14",
+    "libstdcxx >=14"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1782817634000,
+  "size": 24966,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::expat==2.8.2=h7354ed3_1",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/expat-2.8.2-h7354ed3_1.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/expat-2.8.2-h7354ed3_1",
+  "files": [
+    "bin/xmlwf",
+    "share/man/man1/xmlwf.1"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/expat-2.8.2-h7354ed3_1",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::expat==2.8.2=h7354ed3_1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "truststore",
+  "version": "0.10.4",
+  "build": "py314h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "subdir": "linux-64",
+  "fn": "truststore-0.10.4-py314h06a4308_0.conda",
+  "md5": "fb22421ce3ea30789b073da6fe7c1efe",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/truststore-0.10.4-py314h06a4308_0.conda",
+  "sha256": "2ee93b6ad7f355d1565d96b714bdf1683381fe50e1567e37458b9ddded3e890e",
+  "arch": "x86_64",
+  "platform": "linux",
+  "depends": [
+    "python >=3.14,<3.15.0a0",
+    "python_abi 3.14.* *_cp314"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "license_family": "MIT",
+  "timestamp": 1778600080000,
+  "size": 51708,
+  "requested_spec": "https://repo.anaconda.com/pkgs/main/linux-64::truststore==0.10.4=py314h06a4308_0",
+  "package_tarball_full_path": "/workspace/miniconda3/pkgs/truststore-0.10.4-py314h06a4308_0.conda",
+  "extracted_package_dir": "/workspace/miniconda3/pkgs/truststore-0.10.4-py314h06a4308_0",
+  "files": [
+    "lib/python3.14/site-packages/truststore-0.10.4.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/truststore-0.10.4.dist-info/METADATA",
+    "lib/python3.14/site-packages/truststore-0.10.4.dist-info/RECORD",
+    "lib/python3.14/site-packages/truststore-0.10.4.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/truststore-0.10.4.dist-info/WHEEL",
+    "lib/python3.14/site-packages/truststore-0.10.4.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/truststore-0.10.4.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/truststore/__init__.py",
+    "lib/python3.14/site-packages/truststore/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/truststore/__pycache__/_api.cpython-314.pyc",
+    "lib/python3.14/site-packages/truststore/__pycache__/_macos.cpython-314.pyc",
+    "lib/python3.14/site-packages/truststore/__pycache__/_openssl.cpython-314.pyc",
+    "lib/python3.14/site-packages/truststore/__pycache__/_ssl_constants.cpython-314.pyc",
+    "lib/python3.14/site-packages/truststore/__pycache__/_windows.cpython-314.pyc",
+    "lib/python3.14/site-packages/truststore/_api.py",
+    "lib/python3.14/site-packages/truststore/_macos.py",
+    "lib/python3.14/site-packages/truststore/_openssl.py",
+    "lib/python3.14/site-packages/truststore/_ssl_constants.py",
+    "lib/python3.14/site-packages/truststore/_windows.py",
+    "lib/python3.14/site-packages/truststore/py.typed"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "/workspace/miniconda3/pkgs/truststore-0.10.4-py314h06a4308_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "https://repo.anaconda.com/pkgs/main/linux-64::truststore==0.10.4=py314h06a4308_0"
+  ]
+}
