@@ -1,4 +1,53 @@
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
+
+## Project links
+
+- **W&B project:** https://wandb.ai/james-bundrick-wgu/nyc_airbnb
+- **GitHub repository:** https://github.com/jamesbundrick/Project-Build-an-ML-Pipeline-Starter
+
+## Pipeline overview
+
+download → basic_cleaning → data_check → data_split → train_random_forest → test_regression_model
+
+- **basic_cleaning:** keeps prices between $10 and $350, converts `last_review` to datetime, and (from release 1.0.1) drops listings outside NYC boundaries.
+- **data_check:** tests column names, neighbourhoods, geographic boundaries, distribution similarity to a reference sample (KL divergence), row count, and price range.
+- **train_random_forest:** random forest with imputation, one-hot/ordinal encoding, and TF-IDF on listing names; logs MAE and R² to W&B.
+
+## Running the pipeline
+
+    mlflow run . 
+    mlflow run . -P steps=download,basic_cleaning
+    mlflow run . -P steps=test_regression_model   # after tagging a model "prod"
+
+Released version on new data:
+
+    mlflow run https://github.com/jamesbundrick/Project-Build-an-ML-Pipeline-Starter.git -v 1.0.1 -P hydra_options="etl.sample='sample2.csv'"
+
+## Results
+
+Hyperparameter sweep: max_depth ∈ {10, 50} × n_estimators ∈ {100, 200}. None beat the default max_depth=15, n_estimators=100, which is kept as the default in `config.yaml`.
+
+| Model | Data | MAE | R² |
+|---|---|---|---|
+| Best (max_depth=15, n_estimators=100) | Validation | 34.13 | 0.552 |
+| Best (max_depth=15, n_estimators=100) | Test | 33.85 | 0.564 |
+
+Test performance matches validation, so there is no sign of overfitting.
+
+## Releases
+
+- **1.0.0:** first release. Running it on `sample2.csv` fails at `test_proper_boundaries` (one listing outside NYC), as intended.
+- **1.0.1:** adds a longitude/latitude filter in `basic_cleaning`; the pipeline runs successfully on `sample2.csv` and trains a new model.
+
+## Future improvements
+
+- Log-transform price, or try gradient-boosted models, to improve on the random forest baseline.
+- Remove or cap extreme `minimum_nights` values (up to 1,250 in the sample) that represent long-term rentals.
+- Add features such as distance to Manhattan or listing-name keywords.
+- Add a data test for duplicate listings and for implausible `minimum_nights`.
+
+---
+
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
 on the price of similar properties. Your company receives new data in bulk every week. The model needs 
