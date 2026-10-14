@@ -1,1 +1,0 @@
-["requests", "httpx", "pip", "flaky", "aiohttp", "pytest-asyncio", "urllib3", "pytest", "pyopenssl", "trustme", "pytest-httpserver"]

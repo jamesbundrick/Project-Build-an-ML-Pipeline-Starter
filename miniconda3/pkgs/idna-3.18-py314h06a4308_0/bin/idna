@@ -1,8 +1,0 @@
-#!/bin/sh
-'''exec' /home/task_178056148282513/croot/idna_1780561508300/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/bin/python "$0" "$@"
-' '''
-import sys
-from idna.cli import main
-if __name__ == '__main__':
-    sys.argv[0] = sys.argv[0].removesuffix('.exe')
-    sys.exit(main())

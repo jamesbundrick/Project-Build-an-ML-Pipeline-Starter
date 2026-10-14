@@ -1,1 +1,0 @@
-["pytest >=9.0.2", "pip", "appdirs >=1.4.4", "pytest-mock >=3.15.1"]
